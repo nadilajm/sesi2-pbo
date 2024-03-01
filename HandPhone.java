@@ -9,10 +9,10 @@ public class HandPhone {
         this.tahun_pembuatan = tahun_pembuatan;
     }
 
-    String getJenisHP(){
+    public String getJenisHP(){
         return jenis_hp;
     }
-    int getTahunPembuatan(){
+    public int getTahunPembuatan(){
         return tahun_pembuatan;
     }
 
